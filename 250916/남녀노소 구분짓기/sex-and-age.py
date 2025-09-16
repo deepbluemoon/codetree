@@ -8,6 +8,6 @@ elif gender == 0 and age < 19:
 elif gender == 1 and age >= 19:
     print("WOMAN")
 elif gender == 1 and age < 19:
-    print("GILE")
+    print("GIRL")
 else:
     print("올바른 숫자를 입력하세요")
