@@ -1,14 +1,14 @@
-N = int((input()))
+N = int(input())
 
-for N in range(N,101):
+for N in range(N, 101):
     if N >= 90:
-        print("A", end= " ")
+        print("A", end=" ")
     elif N >= 80:
-        print("B", end= " ")
+        print("B", end=" ")
     elif N >= 70:
-        print("C", end= " ")
+        print("C", end=" ")
     elif N >= 60:
-        print("D", end= " ")
+        print("D", end=" ")
     else:
-        print("F", end= " ")
-    N = N + 1
+        print("F", end=" ")
+    N += 1
