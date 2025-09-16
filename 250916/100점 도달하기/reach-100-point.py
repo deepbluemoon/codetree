@@ -1,6 +1,6 @@
 N = int((input()))
 
-for N in range(N,100):
+for N in range(N,101):
     if N >= 90:
         print("A", end= " ")
     elif N >= 80:
