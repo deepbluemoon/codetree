@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &age);
 
     if (gender == 0){
-        if(age >= 18){
+        if(age >= 19){
             printf("MAN");
         }
         else{
@@ -15,7 +15,7 @@ int main() {
         }
     }
     else{
-        if (age >= 18){
+        if (age >= 19){
             printf("WOMAN");
         }
         else{
