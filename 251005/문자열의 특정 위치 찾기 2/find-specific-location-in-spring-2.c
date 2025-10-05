@@ -3,7 +3,7 @@
 
 int main() {
     // Please write your code here.
-    char arr[5][20] = {"appple", "banana", "grape", "blueberry", "orange"};
+    char arr[5][20] = {"apple", "banana", "grape", "blueberry", "orange"};
     char str;
     int cnt = 0;
 
