@@ -14,6 +14,9 @@ int main() {
     else if (b > a && c >= a){
         printf("1 ");
     }
+    else if (a == b && b == c){
+        printf("1 ");
+    }
     else{
         printf("0 ");
     }
